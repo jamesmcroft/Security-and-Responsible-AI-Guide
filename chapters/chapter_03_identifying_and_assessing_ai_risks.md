@@ -1,5 +1,53 @@
 # Chapter 3: Identifying and Assessing AI Risks
 
-How to recognize common security threats in AI solutions and strategies for mitigating risk.
+AI solutions are increasingly being adopted and used in critical industries, but they are not immune to security threats. Common security threats like data breaches, unauthorized access, and adversarial attacks have even more exposure with AI-powered solutions whereby actions in the system could be undetermined. Consumers of your AI solutions need to be confident that the system is secure and that their data is protected.
+
+Mitigating these risks requires teams to consider approaches to identifying potential security threats to their AI systems, assess the impact, and establish best practices to mitigate them. This chapter explores useful resources that will help teams to establish a process for identifying and assessing risks in their Azure AI solutions.
 
 ![Identifying and Assessing AI Risks](../media/chapter_03.jpg)
+
+## Assessing the risks of machine learning models
+
+Solutions that take advantage of AI can offer benefits for various domains and applications, but they also pose significant risks and challenges. To ensure the accountability of machine learning models built for these systems, data scientists and machine learning professionals need to assess and debug their models and data before deploying into a production environment.
+
+The [Responsible AI dashboard](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai-dashboard?view=azureml-api-2) is a tool that brings together several mature tools including data analysis, model fairness, error analysis, and counterfactual what-if. Available within Azure Machine Learning, the dashboard takes advantage of these tools to provide a comprehensive view of the challenges and risks that your machine learning model may have. Using this tool can help you to not only identify, but also improve the overall effectiveness of your model through data-driven insights.
+
+Great use cases for the Responsible AI dashboard include:
+
+- **Identifying the risks of unfair predictions**: It is important to understand the potential harms that may arise from using a model that makes more errors for certain individuals. The dashboard can help to identify how your model may be biased and how you can mitigate against it.
+- **Diagnosing and debugging model errors across different features**: The dashboard can help you to identify the most impactful features that cause errors in your model. This helps you to understand the predictions that your model makes and how you can improve them to provide a more accurate, reliable, and trustworthy model.
+- **Understanding how your model makes decisions**: To build trust with your customers, it is important to identify and assess how your model predicts a result and how changes to the input can alter the outcomes. The dashboard provides capabilities to provide such explanations and insights into your model that is easy to understand and interpret.
+
+The Responsible AI dashboard emerges as a valuable tool, empowering teams to assess and mitigate risks to build trustworthy models, fostering ethical AI practices. As you continue to advance AI technologies, prioritizing responsible and transparent practices remains imperative for establishing trust and maximizing the positive impact of AI in your solutions.
+
+## Identifying risks in AI solutions leveraging large language models
+
+The era of generative AI is enabling new and existing systems to take advantage of powerful pre-trained models capable of generating natural language. Trained on massive amounts of text data, LLMs such as OpenAI's GPT models can produce fluent and coherent text on demand. However, these models also pose significant challenges and risks for AI developers and users.
+
+Some of these challenges and risks include:
+
+- **Bias and harm**: LLMs may inherit and amplify the biases and harms that exist in their training data, such as stereotypes, prejudices, and hate speech. This can lead to harmful or offensive outputs that may affect the reputation, trust, and safety of an AI solution.
+- **Misinformation and manipulation**: LLMs may generate false or misleading information that can deceive or influence users. This can have serious consequences for the credibility, accountability, and ethics of an AI solution.
+- **Legal and regulatory compliance**: LLMs may raise legal and regulatory issues, such as data privacy, intellectual property, and human rights. This can expose the AI solution to potential liabilities and penalties.
+
+To address these challenges and risks, AI developers and users should implement the following initiative:
+
+[The Responsible AI principles and practices for LLMs](https://github.com/Azure/FTALive-Sessions/blob/main/content/ai/responsible-ai/en/responsible-ai-for-llms.md) provides a set of guidelines that aim to ensure that teams can build and use LLMs in a responsible and risk-aware manner.
+
+By applying the principles and practices for AI solutions built with LLMs, AI developers can identify and assess the potential harms and benefits of LLMs, and mitigate or prevent the negative impacts.
+
+## Using standard frameworks to identify threats to AI solutions
+
+To identify and mitigate against risks in AI solutions, teams need to adopt a systematic and comprehensive approach to assessment. Frameworks such as the [ATLAS Matrix](https://atlas.mitre.org/matrices/ATLAS/) map out tactics and techniques that can compromise AI solutions across the entire lifecycle of the system, from development to operation, based on the MITRE ATT&CK framework for cybersecurity.
+
+OWASP, the Open Web Application Security Project, has also developed a guide to the [top 10 most critical vulnerabilities in LLM applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) that highlights their potential impact, ease of exploitation, and prevalence in real-world AI solutions. These vulnerabilities include:
+
+- **Sensitive Information Disclosure**: This occurs when an LLM inadvertently reveals confidential data in its responses, leading to unauthorized data access, privacy violations, and security breaches. It is crucial to implement data sanitization and strict user policies to mitigate this.
+- **Insecure Plugin Design**: This occurs when LLM plugins have insecure inputs and insufficient access control. This lack of application control makes them easier to exploit and can result in consequences like remote code execution.
+- **Over-reliance**: This occurs when systems overly depend on LLMs without oversight and may face misinformation, miscommunication, legal issues, and security vulnerabilities due to incorrect or inappropriate content generated by them.
+
+To identify and mitigate against threats to AI solutions, it is essential to implement a comprehensive and robust risk management assessment using standard frameworks such as the ATLAS Matrix and OWASP's vulnerabilities, following their best practices and guidelines. Applying these techniques early, and throughout, the development lifecycle will help you to design and implement appropriate controls to protect your AI solutions against potential threats.
+
+## Conclusion
+
+As we continue to build new innovative solutions with AI, it is essential to identify and assess the potential risks and challenges that they may have. Using the tools and resources outlined in this chapter, teams can establish their own process for risk management from the design of machine learning models to the deployment of LLMs in production. It is imperative to adopt responsible and transparent practices, prioritizing the security and privacy of your end users to ensure that your AI solutions are trustworthy and reliable.
