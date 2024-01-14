@@ -19,3 +19,14 @@ Continuous improvement in security and responsible AI is not just a recommendati
 In conclusion, this guide has provided a solid foundation for organizations venturing into the realm of secure and responsible AI on Azure.
 
 By embracing continuous improvement, staying informed, and actively addressing emerging challenges, organizations can foster a culture of innovation that prioritizes both security and ethical considerations in the development and deployment of AI technologies.
+
+## Useful resources to stay up-to-date
+
+The following resources are regularly updated with the latest research, guidance, and tools to help you stay up-to-date with the latest developments in security and responsible AI.
+
+- [Microsoft's Responsible AI Principles](https://www.microsoft.com/en-us/ai/responsible-ai)
+- [Microsoft's Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox)
+- [Omar Santos's AI Security Research](https://github.com/The-Art-of-Hacking/h4cker/tree/master/ai_research)
+- [Rod Trent's Must Learn AI Security blog and book series](https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn)
+- [MITRE's ATLAS Matrix](https://atlas.mitre.org/matrices/ATLAS/)
+- [OWASP's Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
