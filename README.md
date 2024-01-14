@@ -17,6 +17,6 @@ This guide is a centralized resource for technical professionals who are looking
 
 The content and resources in this guide have been curated by the following original contributors.
 
-Simran Kaur | Customer Engineer - Microsoft
-Shep Sheppard | Senior Customer Engineer - Microsoft
-James Croft | Customer Engineer - Microsoft
+- Simran Kaur | Customer Engineer - Microsoft
+- Shep Sheppard | Senior Customer Engineer - Microsoft
+- James Croft | Customer Engineer - Microsoft
