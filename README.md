@@ -10,5 +10,5 @@ This guide is a centralized resource for technical professionals who are looking
 - [Chapter 2: Designing Secure, Responsible AI Solutions](./chapters/chapter_02_designing_secure_responsible_ai_solutions.md)
 - [Chapter 3: Identifying and Assessing AI Risks](./chapters/chapter_03_identifying_and_assessing_ai_risks.md)
 - [Chapter 4: Implementing Security Measures](./chapters/chapter_04_implementing_security_measures.md)
-- [Chapter 5: Monitoring and Auditing AI Systems](./chapters/chapter_05_monitoring_and_auditing_ai_systems.md)
+- [Chapter 5: Monitoring and Auditing AI Solutions](./chapters/chapter_05_monitoring_and_auditing_ai_solutions.md)
 - [Chapter 6: Continuous Improvement in Security and Responsible AI](./chapters/chapter_06_continuous_improvement_in_security_and_responsible_ai.md)
