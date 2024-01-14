@@ -12,3 +12,11 @@ This guide is a centralized resource for technical professionals who are looking
 - [Chapter 4: Implementing Security Measures](./chapters/chapter_04_implementing_security_measures.md)
 - [Chapter 5: Monitoring and Auditing AI Solutions](./chapters/chapter_05_monitoring_and_auditing_ai_solutions.md)
 - [Chapter 6: Continuous Improvement in Security and Responsible AI](./chapters/chapter_06_continuous_improvement_in_security_and_responsible_ai.md)
+
+## Contributors
+
+The content and resources in this guide have been curated by the following original contributors.
+
+Simran Kaur | Customer Engineer - Microsoft
+Shep Sheppard | Senior Customer Engineer - Microsoft
+James Croft | Customer Engineer - Microsoft
