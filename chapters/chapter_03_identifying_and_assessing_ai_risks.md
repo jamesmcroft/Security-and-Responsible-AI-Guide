@@ -36,6 +36,19 @@ To address these challenges and risks, AI developers and users should implement 
 
 By applying the principles and practices for AI solutions built with LLMs, AI developers can identify and assess the potential harms and benefits of LLMs, and mitigate or prevent the negative impacts.
 
+### Implementing Azure OpenAI content filters to mitigate harmful content
+
+As you build and deploy AI solutions using Azure OpenAI, you may encounter scenarios where user inputs and model responses contain harmful or inappropriate content. Such content can pose ethical, legal, and reputational risks to your business, as well as harm to your users. It is essential to implement responsible AI measures to prevent or reduce the exposure to harmful content in your AI solutions.
+
+One of the key responsible AI practices for AI solution is to [use Azure OpenAI content filters](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/content-filters), which are integrated directly into the service. Content filters use a collection of multi-class classification models to detect and filter harmful content in four categories at three severity levels. The categories include violence, hate, sexual, and self-harm, with the ability to set severity levels from low to high for each.
+
+> [!NOTE]
+> For special use cases, approved Microsoft Partners can apply to partially or fully disable content filters in your Azure OpenAI service. These scenarios are subject to review and approval by Microsoft and require you to comply with Microsoft's Code of Conduct for Azure OpenAI.
+
+The content filters feature in Azure OpenAI allows you to configure dedicated content filters in your Azure OpenAI service to filter content based on your use case needs. These filters can then be applied to any model deployments to the Azure OpenAI service. Once configured, the content filters will automatically detect and filter content in your AI solutions calling the Azure OpenAI endpoints.
+
+When implementing content filters in your AI solutions, it is important to measure the effectiveness of the filters to ensure that they are working as intended. Deployed content filters can later be evaluated and iterated on to improve their performance.
+
 ## Using standard frameworks to identify threats to AI solutions
 
 To identify and mitigate against risks in AI solutions, teams need to adopt a systematic and comprehensive approach to assessment. Frameworks such as the [ATLAS Matrix](https://atlas.mitre.org/matrices/ATLAS/) map out tactics and techniques that can compromise AI solutions across the entire lifecycle of the system, from development to operation, based on the MITRE ATT&CK framework for cybersecurity.
