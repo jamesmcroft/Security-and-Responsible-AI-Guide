@@ -6,7 +6,22 @@ This chapter explores the best practices and guidance for implementing appropria
 
 ![Implementing Security Measures](../media/chapter_04.jpg)
 
-## Security best practices for building and deploying AI solutions on Azure
+## Implementing jailbreak detection for LLM solutions
+
+As the use of large language models in AI applications continues to grow, so does the risk of malicious actors exploiting vulnerabilities in these models. [Jailbreak attacks](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection) are intentional attempts by users to bypass safety mechanisms and provoke restricted behaviors in LLM solutions. These attacks can lead to the LLM generating inappropriate content or performing restricted actions.
+
+To address these concerns, AI engineers incorporate safety mechanisms to confine the LLM behavior to a secure range of capabilities, usually by defining specific rules through the system message. Despite these precautions, models remain susceptible to adversarial inputs that can result in the LLM completely ignoring safety instructions.
+
+To mitigate against these attacks, the Azure OpenAI service provides [content filtering](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/content-filters) for both the user input and the model response with the capabilities to detect four classes of jailbreak attacks in your LLM solutions, including:
+
+- **Attempts to alter the system message**: This occurs when a user prompts the LLM to change the behavior of the underlying system message, such as ignoring the AI instruction, forgetting or changing its rules, or previous messages.
+- **Attempts to embed a conversation to confuse the model**: This occurs when a user crafts a conversation embedded in a single message to confuse the LLM and provoke it to disregard its instruction.
+- **Attempts to role-play**: This occurs when a user attempts to role-play with the LLM by instructing the solution to adopt a specific persona that does not act according to the rules defined for it.
+- **Attempts to encode attacks in messages**: This occurs when a user crafts a message using character transformations, ciphers, or other encoding techniques to bypass the LLM's safety mechanisms.
+
+Adopting jailbreak detection in LLMs is a crucial step in implementing security measures into your Azure AI solutions. By detecting jailbreak risk, you can take proactive measures to prevent jailbreak attacks and ensure the safety of your LLM-powered systems.
+
+## Infrastructure security best practices for building and deploying AI solutions on Azure
 
 When building and deploying AI solutions on Azure, it is crucial to implement appropriate security measures to protect the end-to-end application lifecycle. Microsoft's [security fundamentals for Azure](https://learn.microsoft.com/en-us/azure/security/fundamentals/zero-trust) provides a zero-trust security model that can be easily adapted to your AI solutions. The guiding principles stipulate that your solution should be:
 
@@ -30,7 +45,7 @@ When building and deploying AI solutions using Azure AI services, it is crucial 
 - **Use a managed identity to access Azure AI Services**: Use an [Azure Managed Identity](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/managed-identity) in combination with role-based access control to restrict access to your Azure AI services. This helps to prevent exposing API keys and ensures that only authorized services within your solution can access your AI services.
 - **Choose a secure solution architecture**: When designing your AI solution, you should consider the [security of a well-architected solution](https://learn.microsoft.com/en-us/azure/well-architected/security/checklist) and how you can implement appropriate controls to mitigate against potential threats. [Integrating private access to your Azure OpenAI solution](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/integrate-private-access-to-your-azure-open-ai-chatbot/ba-p/3994613) provides a useful guide on how to implement this for solutions taking advantage of Azure AI services.
 
-### General best practices for ensuring security in AI solutions
+## General best practices for ensuring security in AI solutions
 
 In addition to the security specifics of Azure resources, it is important to also consider guidance that goes beyond the technical implementation of security measures. These include:
 
