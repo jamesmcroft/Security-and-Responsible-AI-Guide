@@ -1,3 +1,11 @@
+---
+nav_order: 5
+has_children: false
+title: Chapter 4 - Implementing Security Measures
+permalink: /chapters/chapter_04_implementing_security_measures
+layout: default
+---
+
 # Chapter 4: Implementing Security Measures
 
 As AI becomes more prevalent in applications built on Azure, it is important to ensure that we continue to build them in a secure manner to protect against potential threats and vulnerabilities. This extends beyond the design of AI models and their use to include relevant security measures that can be implemented to protect the data, networks, and infrastructure that they rely on.

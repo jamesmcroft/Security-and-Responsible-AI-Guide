@@ -1,3 +1,11 @@
+---
+nav_order: 7
+has_children: false
+title: Chapter 6 - Continuous Improvement in Security and Responsible AI
+permalink: /chapters/chapter_06_continuous_improvement_in_security_and_responsible_ai
+layout: default
+---
+
 # Chapter 6: Continuous Improvement in Security and Responsible AI
 
 In this comprehensive guide, we delved into the crucial aspects of security and responsible AI on Azure, aligning with Microsoft's Responsible AI Standard and Zero Trust model.

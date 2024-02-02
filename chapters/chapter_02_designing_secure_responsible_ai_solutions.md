@@ -1,3 +1,11 @@
+---
+nav_order: 3
+has_children: false
+title: Chapter 2 - Designing Secure, Responsible AI Solutions
+permalink: /chapters/chapter_02_designing_secure_responsible_ai_solutions
+layout: default
+---
+
 # Chapter 2: Designing Secure, Responsible AI Solutions
 
 Artificial intelligence has the potential to transform the way that customers interact with services provided by ISVs and Digital Natives. But, as with any technology, it comes with significant risks and challenges. The [National Cyber Security Centre in the UK](https://www.bbc.com/news/technology-66166824) identified that security is essential for building robust AI systems, and the risks of not designing with security in mind could be significant to your organization and your customers.

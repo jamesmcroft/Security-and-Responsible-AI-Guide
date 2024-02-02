@@ -1,3 +1,11 @@
+---
+nav_order: 2
+has_children: false
+title: Chapter 1 - Understanding Security and Responsible AI
+permalink: /chapters/chapter_01_understanding_security_and_responsible_ai
+layout: default
+---
+
 # Chapter 1: Understanding Security and Responsible AI
 
 Understanding the importance of security and responsible AI practices is the first step in establishing a strategy for implementing them. For organizations looking to build secure and responsible AI systems, this chapter provides an introduction to the concepts of building artificial intelligence into systems that are secure, robust, and ethical. Throughout the guide, we will build on the understanding in this chapter to provide guidance on how to design, implement, and monitor secure and responsible AI systems.

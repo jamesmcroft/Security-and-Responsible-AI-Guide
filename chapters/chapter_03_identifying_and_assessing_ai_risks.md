@@ -1,3 +1,11 @@
+---
+nav_order: 4
+has_children: false
+title: Chapter 3 - Identifying and Assessing AI Risks
+permalink: /chapters/chapter_03_identifying_and_assessing_ai_risks
+layout: default
+---
+
 # Chapter 3: Identifying and Assessing AI Risks
 
 AI solutions are increasingly being adopted and used in critical industries, but they are not immune to security threats. Common security threats like data breaches, unauthorized access, and adversarial attacks have even more exposure with AI-powered solutions whereby actions in the system could be undetermined. Consumers of your AI solutions need to be confident that the system is secure and that their data is protected.

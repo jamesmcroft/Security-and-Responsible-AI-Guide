@@ -1,3 +1,11 @@
+---
+nav_order: 6
+has_children: false
+title: Chapter 5 - Monitoring and Auditing AI Solutions
+permalink: /chapters/chapter_05_monitoring_and_auditing_ai_solutions
+layout: default
+---
+
 # Chapter 5: Monitoring and Auditing AI Solutions
 
 Monitoring and auditing AI solutions is crucial to ensure that they are functioning as intended, preventing potential security breaches, and not causing harm to end users. By establishing a process for observing your solution, you can ensure the efficient operation of your AI system for your customers.
