@@ -29,6 +29,19 @@ To mitigate against these attacks, the Azure OpenAI service provides [content fi
 
 Adopting jailbreak detection in LLMs is a crucial step in implementing security measures into your Azure AI solutions. By detecting jailbreak risk, you can take proactive measures to prevent jailbreak attacks and ensure the safety of your LLM-powered systems.
 
+## Implementing data security for LLM solutions
+
+Implementing data security is a crucial aspect of building any solution, and becomes even more relevant when using it for text generation with Azure OpenAI. Your data may contain sensitive or confidential information that you want to protect from unauthorized access or leaks. Azure OpenAI provides various features and options to help you secure your data and resources when using the service.
+
+Following [Microsoft's guidance for securing your data for Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/use-your-data-securely), you can implement, step-by-step, a secure pipeline in Azure for ingesting data into your LLM solutions. This approach takes advantage of taking data stored in Azure Storage blobs, local files, and URLs into an Azure AI Search instance. These can then be used alongside the Azure OpenAI ingestion APIs to securely reference the data as à source when prompting GPT models.
+
+In this guide, you will learn how to:
+
+- **Use Microsoft Entra ID authentication** to control access to your Azure OpenAI, Azure AI Search, and Storage Account resources. Taking advantage of the principle of least privilege, you will assign roles and permissions to your resources.
+- **Use private endpoints and virtual networks** to isolate your resources from the public internet and enable secure communication within your virtual network. Configure private DNS zones and hosts files will be used to resolve your resources' host names to their private IPs.
+- **Use managed identities** to authenticate your resources to each other without storing any credentials in your application code or configuration. Network restrictions will enable you to bypass your resources as trusted services based on the managed identity.
+- **Use encryption** to protect your data at rest and in transit. Use HTTPS for all API calls and web requests. Use encryption keys to encrypt your data in your Storage Account.
+
 ## Infrastructure security best practices for building and deploying AI solutions on Azure
 
 When building and deploying AI solutions on Azure, it is crucial to implement appropriate security measures to protect the end-to-end application lifecycle. Microsoft's [security fundamentals for Azure](https://learn.microsoft.com/en-us/azure/security/fundamentals/zero-trust) provides a zero-trust security model that can be easily adapted to your AI solutions. The guiding principles stipulate that your solution should be:
