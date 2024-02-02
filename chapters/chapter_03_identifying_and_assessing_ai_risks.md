@@ -44,6 +44,20 @@ To address these challenges and risks, AI developers and users should implement 
 
 By applying the principles and practices for AI solutions built with LLMs, AI developers can identify and assess the potential harms and benefits of LLMs, and mitigate or prevent the negative impacts.
 
+### Red teaming and adversarial testing for AI solutions
+
+Red teaming is a practice of systematically testing and probing AI systems for potential vulnerabilities and harms. It is especially important for identifying responsible AI risks when using large language models, which can produce harmful outputs such as hate speech, incitement of violence, or sexual content. By conducting red teaming exercises, you can uncover and identify RAI risks, measure the effectiveness of mitigations, and provide feedback for improvement.
+
+Microsoft's [guide to planning red teaming for LLMs](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming) provide a step-by-step process for preparing, executing, and reporting your findings from red teaming exercises.
+
+Here's an overview of the best practices for red teaming LLMs and their applications:
+
+- **Start early and iterate**: Begin by testing the model to understand the risk surface and guide the development of responsible AI mitigations. Test versions of your AI solution iteratively with and without mitigations to assess their impact.
+- **Have a diverse and multi-disciplinary team**: Include team members with different backgrounds, expertise, and perspectives to cover a wide range of scenarios and harms. For example, if you are building a call centre chatbot, you might want to have a mix of people with experience in natural language processing, ethics, and customer service.
+- **Use a list of harms as a guideline**: Create a list of harms, with definitions and examples, that are relevant to your solution's domain and context. Use this list to inform your testing and prioritization. Be open to discovering new harms and updating your list accordingly.
+- **Plan your process and data collection**: Decide on the composition, focus, and time allocation of your team. Choose a simple and shared method for collecting and reporting data. Include essential information such as the input, output, and unique ID of each example.
+- **Share your results and feedback**: Communicate your findings and recommendations to key stakeholders on a regular basis. Clarify that red teaming is not a replacement for systematic measurement and rigorous mitigation work, but a way to expose and raise awareness of responsible AI risks.
+
 ### Implementing Azure OpenAI content filters to mitigate harmful content
 
 As you build and deploy AI solutions using Azure OpenAI, you may encounter scenarios where user inputs and model responses contain harmful or inappropriate content. Such content can pose ethical, legal, and reputational risks to your business, as well as harm to your users. It is essential to implement responsible AI measures to prevent or reduce the exposure to harmful content in your AI solutions.
