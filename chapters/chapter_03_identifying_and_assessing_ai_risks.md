@@ -50,7 +50,7 @@ As you build and deploy AI solutions using Azure OpenAI, you may encounter scena
 
 One of the key responsible AI practices for AI solution is to [use Azure OpenAI content filters](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/content-filters), which are integrated directly into the service. Content filters use a collection of multi-class classification models to detect and filter harmful content in four categories at three severity levels. The categories include violence, hate, sexual, and self-harm, with the ability to set severity levels from low to high for each.
 
-> [!NOTE]
+{: .important }
 > For special use cases, approved Microsoft Partners can apply to partially or fully disable content filters in your Azure OpenAI service. These scenarios are subject to review and approval by Microsoft and require you to comply with Microsoft's Code of Conduct for Azure OpenAI.
 
 The content filters feature in Azure OpenAI allows you to configure dedicated content filters in your Azure OpenAI service to filter content based on your use case needs. These filters can then be applied to any model deployments to the Azure OpenAI service. Once configured, the content filters will automatically detect and filter content in your AI solutions calling the Azure OpenAI endpoints.
