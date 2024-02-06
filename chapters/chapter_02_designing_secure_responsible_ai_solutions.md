@@ -40,6 +40,7 @@ When designing AI solutions using Azure OpenAI, consider:
 - **Craft effective prompts and metaprompts**: Use prompt engineering techniques to guide the model's behavior and output towards your intended goals and expectations, and to avoid undesired or harmful outputs.
 - **Implement user-centered design and UX interventions**: Design the user experience to encourage users to review AI-generated outputs, to disclose the role of AI in the interaction, to prevent over-reliance or misuse of the system, and to provide feedback channels.
 - **Deploy and operate your system responsibly**: Follow a phased delivery approach, develop an incident response and rollback plan, collect telemetry and feedback data, and monitor your system for any regression or new harms.
+- **Opt-in to the Customer Copyright Commitment**: To avoid potential risks and maintain coverage under Microsoft's Customer Copyright Commitment, you should [implement the required mitigations](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/customer-copyright-commitment?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext#universal-required-mitigations) to ensure that your metaprompts prevent copyright infringement, and that you have a process in place to handle testing and evaluation of your system. These mitigations help you to configure your system to respect intellectual property in compliance with the Code of Conduct.
 
 ## The importance of security in AI
 
