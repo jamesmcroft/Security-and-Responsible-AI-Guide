@@ -12,6 +12,15 @@ This guide is a centralized resource for technical professionals who are looking
 
 ![Mastering Security and Responsible AI on Azure: A Guide for Robust and Ethical Implementation](./media/cover.jpg)
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Who is this guide for?
 
 This contents of this guide have been crafted for a diverse range of technical professionals, including:
