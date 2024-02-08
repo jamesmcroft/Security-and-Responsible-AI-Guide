@@ -14,6 +14,15 @@ This chapter explores the tools and techniques that you can employ to help conti
 
 ![Monitoring and Auditing AI Solutions](../media/chapter_05.jpg)
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Establishing effective monitoring and alerting in AI solutions
 
 Ensuring that your AI solutions are functioning as intended in a secure and responsible manner is crucial to building trust with your customers. However, monitoring and auditing them can be challenging due to the complexities of AI solutions, including:

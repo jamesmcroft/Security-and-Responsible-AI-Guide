@@ -14,6 +14,15 @@ This chapter explores the best practices and guidance for implementing appropria
 
 ![Implementing Security Measures](../media/chapter_04.jpg)
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Implementing jailbreak detection for LLM solutions
 
 As the use of large language models in AI applications continues to grow, so does the risk of malicious actors exploiting vulnerabilities in these models. [Jailbreak attacks](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection) are intentional attempts by users to bypass safety mechanisms and provoke restricted behaviors in LLM solutions. These attacks can lead to the LLM generating inappropriate content or performing restricted actions.

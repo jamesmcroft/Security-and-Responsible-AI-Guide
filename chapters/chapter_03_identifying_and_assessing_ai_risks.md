@@ -14,6 +14,15 @@ Mitigating these risks requires teams to consider approaches to identifying pote
 
 ![Identifying and Assessing AI Risks](../media/chapter_03.jpg)
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Assessing the risks of machine learning models
 
 Solutions that take advantage of AI can offer benefits for various domains and applications, but they also pose significant risks and challenges. To ensure the accountability of machine learning models built for these systems, data scientists and machine learning professionals need to assess and debug their models and data before deploying into a production environment.

@@ -16,6 +16,15 @@ As we conclude, this chapter highlights the key findings, patterns, and relation
 
 ![Continuous Improvement in Security and Responsible AI](../media/chapter_06.jpg)
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Importance of continuously improving best practices in secure and responsible AI
 
 The rapidly evolving AI landscape demands a proactive approach to research, development, and adaptation. New threats, challenges, and ethical considerations will emerge, necessitating ongoing efforts to enhance security and responsible AI practices.

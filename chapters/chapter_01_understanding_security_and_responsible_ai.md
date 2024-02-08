@@ -12,6 +12,15 @@ Understanding the importance of security and responsible AI practices is the fir
 
 ![Understanding Security and Responsible AI](../media/chapter_01.jpeg)
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Responsible AI Principles and Frameworks
 
 Microsoft has established [a comprehensive standard for responsible AI](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-Responsible-AI-Standard-v2-General-Requirements-3.pdf) which provides a framework for building AI systems that are built on six key principles.

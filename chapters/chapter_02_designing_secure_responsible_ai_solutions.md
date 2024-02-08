@@ -14,6 +14,15 @@ For organizations building solutions with AI capabilities, you have the responsi
 
 ![Designing Secure, Responsible AI Solutions](../media/chapter_02.jpg)
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Assessing the responsible AI impact of your solutions
 
 The first step in designing a responsible AI solution is to explore the potential impact of your solution on your customers. This will help you to identify the risks and challenges that you need to address early in the design process.
