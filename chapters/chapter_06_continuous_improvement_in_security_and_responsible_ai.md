@@ -8,6 +8,8 @@ layout: default
 
 # Chapter 6: Continuous Improvement in Security and Responsible AI
 
+{% include table_of_contents.md %}
+
 In this comprehensive guide, we delved into the crucial aspects of security and responsible AI on Azure, aligning with Microsoft's Responsible AI Standard and Zero Trust model.
 
 The journey covered essential principles, impact assessment, design considerations, industry adoption challenges, security measures implementation, and the vital role of monitoring.
@@ -15,15 +17,6 @@ The journey covered essential principles, impact assessment, design consideratio
 As we conclude, this chapter highlights the key findings, patterns, and relationships observed throughout the chapters, emphasizing the need for continuous improvement in security and responsible AI practices.
 
 ![Continuous Improvement in Security and Responsible AI](../media/chapter_06.jpg)
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 
 ## Importance of continuously improving best practices in secure and responsible AI
 
@@ -42,8 +35,13 @@ By embracing continuous improvement, staying informed, and actively addressing e
 The following resources are regularly updated with the latest research, guidance, and tools to help you stay up-to-date with the latest developments in security and responsible AI.
 
 - [Microsoft's Responsible AI Principles](https://www.microsoft.com/en-us/ai/responsible-ai)
+
 - [Microsoft's Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox)
+
 - [Omar Santos's AI Security Research](https://github.com/The-Art-of-Hacking/h4cker/tree/master/ai_research)
+
 - [Rod Trent's Must Learn AI Security blog and book series](https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn)
+
 - [MITRE's ATLAS Matrix](https://atlas.mitre.org/matrices/ATLAS/)
+
 - [OWASP's Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
