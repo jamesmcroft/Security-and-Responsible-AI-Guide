@@ -62,7 +62,7 @@ When building and deploying AI solutions on Azure, it is crucial to implement ap
 
 ### Applying best practices to secure your Azure Machine Learning solutions
 
-To apply these principles in practice for Azure Machine Learning solutions, you should consider the following best practices as outlined in Microsoft's [Azure Machine Learning security best practices](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/ai-machine-learning-enterprise-security):
+To apply these principles in practice for Azure Machine Learning solutions, you should consider the following best practices:
 
 - **Manage access to the Azure Machine Learning workspace and resources**: Use [Azure role-based access control](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-assign-roles?view=azureml-api-2&tabs=labeler) to define and enforce restrictions for users and services for your Azure Machine Learning workspace and its dependent resources, such as compute instances and data storage. Use built-in roles where possible, and custom roles if needed. Where possible, use a managed identity to allow access to other Azure resources from your Azure Machine Learning workspace to prevent exposing sensitive credentials.
 
