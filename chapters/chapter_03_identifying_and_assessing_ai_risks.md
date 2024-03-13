@@ -30,7 +30,7 @@ Great use cases for the Responsible AI dashboard include:
 
 - **Understanding how your model makes decisions**: To build trust with your customers, it is important to identify and assess how your model predicts a result and how changes to the input can alter the outcomes. The dashboard provides capabilities to provide such explanations and insights into your model that is easy to understand and interpret.
 
-The Responsible AI dashboard emerges as a valuable tool, empowering teams to assess and mitigate risks to build trustworthy models, fostering ethical AI practices. As you continue to advance AI technologies, prioritizing responsible and transparent practices remains imperative for establishing trust and maximizing the positive impact of AI in your solutions.
+The Responsible AI dashboard emerges as a valuable tool, empowering teams to assess and mitigate risks to build trustworthy models, fostering responsible AI practices. As you continue to advance AI technologies, prioritizing responsible and transparent practices remains imperative for establishing trust and maximizing the positive impact of AI in your solutions.
 
 ## Identifying risks in AI solutions leveraging large language models
 
@@ -40,7 +40,7 @@ Some of these challenges and risks include:
 
 - **Bias and harm**: LLMs may inherit and amplify the biases and harms that exist in their training data, such as stereotypes, prejudices, and hate speech. This can lead to harmful or offensive outputs that may affect the reputation, trust, and safety of an AI solution.
 
-- **Misinformation and manipulation**: LLMs may generate false or misleading information that can deceive or influence users. This can have serious consequences for the credibility, accountability, and ethics of an AI solution.
+- **Misinformation and manipulation**: LLMs may generate false or misleading information that can deceive or influence users. This can have serious consequences for the credibility and accountability of an AI solution.
 
 - **Legal and regulatory compliance**: LLMs may raise legal and regulatory issues, such as data privacy, intellectual property, and human rights. This can expose the AI solution to potential liabilities and penalties.
 
@@ -60,7 +60,7 @@ Here's an overview of the best practices for red teaming LLMs and their applicat
 
 - **Start early and iterate**: Begin by testing the model to understand the risk surface and guide the development of responsible AI mitigations. Test versions of your AI solution iteratively with and without mitigations to assess their impact.
 
-- **Have a diverse and multi-disciplinary team**: Include team members with different backgrounds, expertise, and perspectives to cover a wide range of scenarios and harms. For example, if you are building a call centre chatbot, you might want to have a mix of people with experience in natural language processing, ethics, and customer service.
+- **Have a diverse and multi-disciplinary team**: Include team members with different backgrounds, expertise, and perspectives to cover a wide range of scenarios and harms. For example, if you are building a call centre chatbot, you might want to have a mix of people with experience in natural language processing, responsible AI, and customer service.
 
 - **Use a list of harms as a guideline**: Create a list of harms, with definitions and examples, that are relevant to your solution's domain and context. Use this list to inform your testing and prioritization. Be open to discovering new harms and updating your list accordingly.
 
@@ -70,11 +70,12 @@ Here's an overview of the best practices for red teaming LLMs and their applicat
 
 ### Implementing Azure OpenAI content filters to mitigate harmful content
 
-As you build and deploy AI solutions using Azure OpenAI, you may encounter scenarios where user inputs and model responses contain harmful or inappropriate content. Such content can pose ethical, legal, and reputational risks to your business, as well as harm to your users. It is essential to implement responsible AI measures to prevent or reduce the exposure to harmful content in your AI solutions.
+As you build and deploy AI solutions using Azure OpenAI, you may encounter scenarios where user inputs and model responses contain harmful or inappropriate content. Such content can pose legal and reputational risks to your business, as well as harm to your users. It is essential to implement responsible AI measures to prevent or reduce the exposure to harmful content in your AI solutions.
 
 One of the key responsible AI practices for AI solution is to [use Azure OpenAI content filters](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/content-filters), which are integrated directly into the service. Content filters use a collection of multi-class classification models to detect and filter harmful content in four categories at three severity levels. The categories include violence, hate, sexual, and self-harm, with the ability to set severity levels from low to high for each.
 
 {: .important }
+
 > For special use cases, approved Microsoft Partners can apply to partially or fully disable content filters in your Azure OpenAI service. These scenarios are subject to review and approval by Microsoft and require you to comply with Microsoft's Code of Conduct for Azure OpenAI.
 
 The content filters feature in Azure OpenAI allows you to configure dedicated content filters in your Azure OpenAI service to filter content based on your use case needs. These filters can then be applied to any model deployments to the Azure OpenAI service. Once configured, the content filters will automatically detect and filter content in your AI solutions calling the Azure OpenAI endpoints.

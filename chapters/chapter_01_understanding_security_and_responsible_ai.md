@@ -10,7 +10,7 @@ layout: default
 
 {% include table_of_contents.md %}
 
-Understanding the importance of security and responsible AI practices is the first step in establishing a strategy for implementing them. For organizations looking to build secure and responsible AI systems, this chapter provides an introduction to the concepts of building artificial intelligence into systems that are secure, robust, and ethical. Throughout the guide, we will build on the understanding in this chapter to provide guidance on how to design, implement, and monitor secure and responsible AI systems.
+Understanding the importance of security and responsible AI practices is the first step in establishing a strategy for implementing them. For organizations looking to build secure and responsible AI systems, this chapter provides an introduction to the concepts of building artificial intelligence into systems that are secure and robust with responsibility in mind. Throughout the guide, we will build on the understanding in this chapter to provide guidance on how to design, implement, and monitor secure and responsible AI systems.
 
 ![Understanding Security and Responsible AI](../media/chapter_01.jpeg)
 
@@ -34,7 +34,7 @@ The standard encourages collaboration and feedback at every step of the AI lifec
 
 ### How we approach responsible AI at Microsoft
 
-Microsoft is committed to advancing AI in a way that is driven by ethical principles that put people first. These established principles are not only our guidance to you, but are essential to [how we adopt AI in the solutions that we create](https://www.microsoft.com/cms/api/am/binary/RE4pKH5), ensuring that responsible and trustworthy AI exists throughout our products and services.
+Microsoft is committed to advancing AI in a way that is driven by responsible AI principles that put people first. These established principles are not only our guidance to you, but are essential to [how we adopt AI in the solutions that we create](https://www.microsoft.com/cms/api/am/binary/RE4pKH5), ensuring that responsible and trustworthy AI exists throughout our products and services.
 
 The Microsoft Responsible AI Standard provides the definitive playbook and a reference guide to help everyone build AI systems responsibly. By following the principles of the responsible AI standard, organizations can build AI systems that are secure and responsible while being flexible and adaptable to a variety of use cases.
 
@@ -42,7 +42,7 @@ As you continue your journey through this guide, you will see how these principl
 
 ## Foundations of Security in AI on Azure
 
-AI systems on Azure require a strong security foundation to ensure the confidentiality, integrity, and availability of data and models, as well as the resilience and trustworthiness of the system. Security in AI is not only a technical challenge, but also a business and ethical imperative. A security breach in an AI system can have severe consequences, such as data leakage, model theft, malicious manipulation, or denial of service.
+AI systems on Azure require a strong security foundation to ensure the confidentiality, integrity, and availability of data and models, as well as the resilience and trustworthiness of the system. Security in AI is not only a technical challenge, but also a responsible business imperative. A security breach in an AI system can have severe consequences, such as data leakage, model theft, malicious manipulation, or denial of service.
 
 To build secure AI systems on Azure, you need to follow the [Microsoft Zero Trust model](https://learn.microsoft.com/en-us/azure/well-architected/security/), which is based on the principle of verifying explicitly, using least-privilege access, and assuming breach. This model helps you to mitigate security risks by applying security controls at every layer of the system, from the data source to the model endpoint.
 
@@ -64,7 +64,7 @@ Building secure AI systems on Azure requires a strong foundation of security pra
 
 ## Conclusion
 
-Adopting security and responsible AI practices is not just a regulatory requirement but a foundational element for building trust and ensuring the long-term success of AI initiatives. By integrating these principles, organizations can create systems that are not only technically advanced but also ethically sound and reliable.
+Adopting security and responsible AI practices is not just a regulatory requirement but a foundational element for building trust and ensuring the long-term success of AI initiatives. By integrating these principles, organizations can create systems that are not only technically advanced but also built responsibly.
 
 This introductory chapter lays the foundations for understanding how to embed security and responsible AI into the fabric of your AI solutions on Azure, highlighting the importance of fairness, reliability, inclusiveness, transparency, privacy, and accountability in AI systems. For engineering teams embarking on this journey, consider the following recommendations:
 
@@ -74,4 +74,4 @@ This introductory chapter lays the foundations for understanding how to embed se
 
 - **Prioritize Continuous Security Assessments**: Regularly assess and update security measures to adapt to new threats. This includes encrypting data, securing pipelines, monitoring systems for unusual activities, and having a robust incident response plan in place.
 
-By prioritizing these areas, engineering teams can build AI solutions on Azure that are not only innovative and powerful but also secure and respectful of the ethical implications of AI implementation.
+By prioritizing these areas, engineering teams can build AI solutions on Azure in a responsible manner that are innovative and secure.

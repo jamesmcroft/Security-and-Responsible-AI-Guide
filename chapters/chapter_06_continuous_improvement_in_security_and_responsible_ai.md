@@ -20,15 +20,15 @@ As we conclude, this chapter highlights the key findings, patterns, and relation
 
 ## Importance of continuously improving best practices in secure and responsible AI
 
-The rapidly evolving AI landscape demands a proactive approach to research, development, and adaptation. New threats, challenges, and ethical considerations will emerge, necessitating ongoing efforts to enhance security and responsible AI practices.
+The rapidly evolving AI landscape demands a proactive approach to research, development, and adaptation. New threat and challenge considerations will emerge, requiring ongoing efforts to enhance security and responsible AI practices.
 
 While the integration of Microsoft's Responsible AI principles and the Zero Trust model form a robust foundation, it is important for teams to review the research undertaken by Microsoft and other cybersecurity experts. From initial design to continuous monitoring, the importance of security in building trustworthy AI systems will be consistently highlighted throughout the development lifecycle of all AI solutions.
 
-Continuous improvement in security and responsible AI is not just a recommendation but a necessity. As technology evolves, so do potential risks and ethical considerations. Teams must invest in ongoing research, stay up-to-date on emerging threats, and adapt their practices accordingly. This iterative approach ensures that AI solutions remain secure, ethical, and aligned with evolving industry standards.
+Continuous improvement in security and responsible AI is not just a recommendation but a necessity. As technology evolves, so do potential risks and responsibility considerations. Teams must invest in ongoing research, stay up-to-date on emerging threats, and adapt their practices accordingly. This iterative approach ensures that AI solutions remain secure and aligned with evolving industry standards.
 
 In conclusion, this guide has provided a solid foundation for organizations venturing into the realm of secure and responsible AI on Azure.
 
-By embracing continuous improvement, staying informed, and actively addressing emerging challenges, organizations can foster a culture of innovation that prioritizes both security and ethical considerations in the development and deployment of AI technologies.
+By embracing continuous improvement, staying informed, and actively addressing emerging challenges, organizations can foster a culture of innovation that prioritizes both security and responsible AI considerations in the development and deployment of AI solutions.
 
 ## Useful resources to stay up-to-date
 

@@ -6,11 +6,11 @@ permalink: /
 layout: default
 ---
 
-# Mastering Security and Responsible AI on Azure: A Guide for Robust and Ethical Implementation
+# Mastering Secure and Responsible AI Solutions on Azure: A Guide to Best Practices, Frameworks, and Assessments for Implementation
 
 This guide is a centralized resource for technical professionals who are looking to establish a strategy for implementing security and responsible AI practices on Azure. It addresses the challenges of creating trusted AI systems and provides guidance on how to design, develop, deploy, and use AI systems in a responsible manner. It is tailored to both a technical and business audience, offering considerations for establishing best practices. By consolidating the latest Azure security and responsible AI guidance and tools, we aim to make the journey to trusted AI more accessible and achievable for a wide range of organizations.
 
-![Mastering Security and Responsible AI on Azure: A Guide for Robust and Ethical Implementation](./media/cover.jpg)
+![An image representing mastering secure and responsible AI solutions on Azure. An open book rests on a surface, its pages a crisp white, with one page prominently displaying a shield emblem. Centered on the shield is a padlock, symbolizing safety and security. Hovering above the open book, a radiant light bulb shines, embodying the spark of an idea.](./media/cover.jpg)
 
 ## Who is this guide for?
 
