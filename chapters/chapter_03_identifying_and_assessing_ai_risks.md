@@ -24,7 +24,7 @@ The [Responsible AI Dashboard](https://learn.microsoft.com/en-us/azure/machine-l
 
 Great use cases for the Responsible AI Dashboard include:
 
-- **Identifying the risks of unfair predictions**: It is important to understand the potential harms that may arise from using a model that makes more errors for certain individuals. The dashboard can help to identify how your model may expose societal bias and how you can mitigate against it.
+- **Identifying the fairness of predictions**: It is important to understand the potential harms that may arise from using a model that makes more errors for certain individuals. The dashboard can help to identify how your model may expose societal bias and fairness issues using various group-fairness metrics across sensitive features.
 
 - **Diagnosing and debugging model errors across different features**: The dashboard can help you to identify the most impactful features that cause errors in your model. This helps you to understand the predictions that your model makes and how you can improve them to provide a more accurate, reliable, and trustworthy model.
 
