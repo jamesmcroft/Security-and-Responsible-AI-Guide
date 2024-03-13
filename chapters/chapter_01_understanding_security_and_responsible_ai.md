@@ -18,7 +18,7 @@ Understanding the importance of security and responsible AI practices is the fir
 
 Microsoft has established [a comprehensive standard for responsible AI](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-Responsible-AI-Standard-v2-General-Requirements-3.pdf) which provides a framework for building AI systems that are built on six key principles.
 
-- **Fairness**: AI systems should treat all people fairly. The data used should be diverse and representative of the population it is intended to serve. The system should be designed to avoid biased or discriminatory outcomes.
+- **Fairness**: AI systems should treat all people fairly. The data used should be diverse and representative of the population it is intended to serve. The system should be designed to avoid societal bias or discriminatory outcomes.
 
 - **Reliability and safety**: AI systems should operate in a manner that is safe and reliable for all users. Data should be accurate, up-to-date, and validated. The system should be able to detect and mitigate against harmful outcomes.
 

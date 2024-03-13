@@ -24,7 +24,7 @@ The [Responsible AI dashboard](https://learn.microsoft.com/en-us/azure/machine-l
 
 Great use cases for the Responsible AI dashboard include:
 
-- **Identifying the risks of unfair predictions**: It is important to understand the potential harms that may arise from using a model that makes more errors for certain individuals. The dashboard can help to identify how your model may be biased and how you can mitigate against it.
+- **Identifying the risks of unfair predictions**: It is important to understand the potential harms that may arise from using a model that makes more errors for certain individuals. The dashboard can help to identify how your model may expose societal bias and how you can mitigate against it.
 
 - **Diagnosing and debugging model errors across different features**: The dashboard can help you to identify the most impactful features that cause errors in your model. This helps you to understand the predictions that your model makes and how you can improve them to provide a more accurate, reliable, and trustworthy model.
 
@@ -38,7 +38,7 @@ The era of generative AI is enabling new and existing systems to take advantage 
 
 Some of these challenges and risks include:
 
-- **Bias and harm**: LLMs may inherit and amplify the biases and harms that exist in their training data, such as stereotypes, prejudices, and hate speech. This can lead to harmful or offensive outputs that may affect the reputation, trust, and safety of an AI solution.
+- **Societal bias and harm**: LLMs may inherit and amplify societal biases and harms that exist in their training data, such as stereotypes, prejudices, and hate speech. This can lead to harmful or offensive outputs that may affect the reputation, trust, and safety of an AI solution.
 
 - **Misinformation and manipulation**: LLMs may generate false or misleading information that can deceive or influence users. This can have serious consequences for the credibility and accountability of an AI solution.
 
