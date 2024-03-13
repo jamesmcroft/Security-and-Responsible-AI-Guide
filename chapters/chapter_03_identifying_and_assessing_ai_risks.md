@@ -20,9 +20,9 @@ Mitigating these risks requires teams to consider approaches to identifying pote
 
 Solutions that take advantage of AI can offer benefits for various domains and applications, but they also pose significant risks and challenges. To ensure the accountability of machine learning models built for these systems, data scientists and machine learning professionals need to assess and debug their models and data before deploying into a production environment.
 
-The [Responsible AI dashboard](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai-dashboard?view=azureml-api-2) is a tool that brings together several mature tools including data analysis, model fairness, error analysis, and counterfactual what-if. Available within Azure Machine Learning, the dashboard takes advantage of these tools to provide a comprehensive view of the challenges and risks that your machine learning model may have. Using this tool can help you to not only identify, but also improve the overall effectiveness of your model through data-driven insights.
+The [Responsible AI Dashboard](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai-dashboard?view=azureml-api-2) is a tool that brings together several mature tools including data analysis, model fairness, error analysis, and counterfactual what-if. Available within Azure Machine Learning, the dashboard takes advantage of these tools to provide a comprehensive view of the challenges and risks that your machine learning model may have. Using this tool can help you to not only identify, but also improve the overall effectiveness of your model through data-driven insights.
 
-Great use cases for the Responsible AI dashboard include:
+Great use cases for the Responsible AI Dashboard include:
 
 - **Identifying the risks of unfair predictions**: It is important to understand the potential harms that may arise from using a model that makes more errors for certain individuals. The dashboard can help to identify how your model may expose societal bias and how you can mitigate against it.
 
@@ -30,7 +30,7 @@ Great use cases for the Responsible AI dashboard include:
 
 - **Understanding how your model makes decisions**: To build trust with your customers, it is important to identify and assess how your model predicts a result and how changes to the input can alter the outcomes. The dashboard provides capabilities to provide such explanations and insights into your model that is easy to understand and interpret.
 
-The Responsible AI dashboard emerges as a valuable tool, empowering teams to assess and mitigate risks to build trustworthy models, fostering responsible AI practices. As you continue to advance AI technologies, prioritizing responsible and transparent practices remains imperative for establishing trust and maximizing the positive impact of AI in your solutions.
+The Responsible AI Dashboard emerges as a valuable tool, empowering teams to assess and mitigate risks to build trustworthy models, fostering responsible AI practices. As you continue to advance AI technologies, prioritizing responsible and transparent practices remains imperative for establishing trust and maximizing the positive impact of AI in your solutions.
 
 ## Identifying risks in AI solutions leveraging large language models
 
@@ -46,7 +46,7 @@ Some of these challenges and risks include:
 
 To address these challenges and risks, AI developers and users should implement the following initiative:
 
-[The Responsible AI principles and practices for LLMs](https://github.com/Azure/FTALive-Sessions/blob/main/content/ai/responsible-ai/en/responsible-ai-for-llms.md) provides a set of guidelines that aim to ensure that teams can build and use LLMs in a responsible and risk-aware manner.
+[The responsible AI principles and practices for LLMs](https://github.com/Azure/FTALive-Sessions/blob/main/content/ai/responsible-ai/en/responsible-ai-for-llms.md) provides a set of guidelines that aim to ensure that teams can build and use LLMs in a responsible and risk-aware manner.
 
 By applying the principles and practices for AI solutions built with LLMs, AI developers can identify and assess the potential harms and benefits of LLMs, and mitigate or prevent the negative impacts.
 

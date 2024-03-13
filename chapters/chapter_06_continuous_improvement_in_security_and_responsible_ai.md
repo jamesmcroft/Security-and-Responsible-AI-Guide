@@ -22,7 +22,7 @@ As we conclude, this chapter highlights the key findings, patterns, and relation
 
 The rapidly evolving AI landscape demands a proactive approach to research, development, and adaptation. New threat and challenge considerations will emerge, requiring ongoing efforts to enhance security and responsible AI practices.
 
-While the integration of Microsoft's Responsible AI principles and the Zero Trust model form a robust foundation, it is important for teams to review the research undertaken by Microsoft and other cybersecurity experts. From initial design to continuous monitoring, the importance of security in building trustworthy AI systems will be consistently highlighted throughout the development lifecycle of all AI solutions.
+While the integration of Microsoft's responsible AI principles and the Zero Trust model form a robust foundation, it is important for teams to review the research undertaken by Microsoft and other cybersecurity experts. From initial design to continuous monitoring, the importance of security in building trustworthy AI systems will be consistently highlighted throughout the development lifecycle of all AI solutions.
 
 Continuous improvement in security and responsible AI is not just a recommendation but a necessity. As technology evolves, so do potential risks and responsibility considerations. Teams must invest in ongoing research, stay up-to-date on emerging threats, and adapt their practices accordingly. This iterative approach ensures that AI solutions remain secure and aligned with evolving industry standards.
 

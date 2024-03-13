@@ -20,11 +20,11 @@ For organizations building solutions with AI capabilities, you have the responsi
 
 The first step in designing a responsible AI solution is to explore the potential impact of your solution on your customers. This will help you to identify the risks and challenges that you need to address early in the design process.
 
-Microsoft's [Responsible AI Impact Assessment Guide](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-RAI-Impact-Assessment-Guide.pdf), and corresponding [Impact Assessment Template](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-RAI-Impact-Assessment-Template.pdf) provide a framework for you to assess the potential impact that your AI use case may have, aligned to Microsoft's [Principles for Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai) as discussed in the previous chapter. It is a tool to:
+Microsoft's [Responsible AI Impact Assessment Guide](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-RAI-Impact-Assessment-Guide.pdf), and corresponding [Impact Assessment Template](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-RAI-Impact-Assessment-Template.pdf) provide a framework for you to assess the potential impact that your AI use case may have, aligned to Microsoft's [principles for responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai) as discussed in the previous chapter. It is a tool to:
 
 - **Explore** the potential impact of your system on people and society, giving you the opportunity to consider both benefits and harms for different individuals and groups.
 
-- **Identify** the relevant goals and requirements for your solution from Microsoft's Principles for Responsible AI including fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
+- **Identify** the relevant goals and requirements for your solution from Microsoft's principles for responsible AI including fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
 
 - **Document** your AI use case responsibility profile, data requirements, potential limitations and failures, and potential misuse scenarios.
 
